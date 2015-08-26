@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.apress.isf;
+package com.apress.isf.spring.test;
 
 import static org.junit.Assert.*;
 
