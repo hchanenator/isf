@@ -27,7 +27,7 @@ public class MyDocumentsTest {
 
 	@Before
 	public void setup() {
-		context = new ClassPathXmlApplicationContext("META-INF/spring/mydocuments-context.xml");
+		context = new ClassPathXmlApplicationContext("META-INF/spring/mydocuments-context-prototype.xml");
 	}
 
 	@Test

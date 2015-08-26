@@ -8,6 +8,7 @@ import java.util.Map;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
 
 import com.apress.isf.java.model.Document;
 import com.apress.isf.java.model.Type;
