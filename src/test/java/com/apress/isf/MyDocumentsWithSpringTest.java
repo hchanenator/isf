@@ -28,7 +28,7 @@ public class MyDocumentsWithSpringTest {
 
 	@Before
 	public void setup() {
-		context = new ClassPathXmlApplicationContext("META-INF/spring/mydocuments-context.xml");
+		context = new ClassPathXmlApplicationContext("META-INF/spring/mydocuments-prev-context.xml");
 		engine = context.getBean(SearchEngine.class);
 		documentType = context.getBean(Type.class);
 	}

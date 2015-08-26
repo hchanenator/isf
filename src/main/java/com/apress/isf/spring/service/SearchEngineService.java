@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.apress.isf.java.service;
+package com.apress.isf.spring.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,6 +9,7 @@ import java.util.List;
 
 import com.apress.isf.java.model.Document;
 import com.apress.isf.java.model.Type;
+import com.apress.isf.java.service.SearchEngine;
 import com.apress.isf.spring.data.DocumentDAO;
 
 /**
